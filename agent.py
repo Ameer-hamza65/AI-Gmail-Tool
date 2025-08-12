@@ -3,7 +3,7 @@ import os
 from langchain_groq import ChatGroq
 from langgraph.prebuilt import create_react_agent
 
- 
+
 api_key=os.getenv('GROQ_API_KEY')  
 
 llm=ChatGroq(
