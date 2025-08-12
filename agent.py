@@ -4,7 +4,7 @@ from langchain_groq import ChatGroq
 from langgraph.prebuilt import create_react_agent
 
  
-api_key=os.getenv('GROQ_API_KEY') 
+api_key=os.getenv('GROQ_API_KEY')  
 
 llm=ChatGroq(
     model='llama-3.3-70b-versatile',  
