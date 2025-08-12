@@ -13,7 +13,7 @@ llm=ChatGroq(
 
 graph=create_react_agent(llm,tools)
 example_query = "Draft an email to hamza5993795@gmail.com thanking them for coffee."
-
+ 
 events = graph.stream(
     {"messages": [("user", example_query)]},
     stream_mode="values",
