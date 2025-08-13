@@ -19,4 +19,4 @@ events = graph.stream(
     stream_mode="values",
 )
 for event in events:
-    event["messages"][-1].pretty_print()
+    event["messages"][-1].pretty_print() 
