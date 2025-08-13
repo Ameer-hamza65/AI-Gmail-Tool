@@ -18,5 +18,5 @@ events = graph.stream(
     {"messages": [("user", example_query)]},
     stream_mode="values",
 )
-for event in events:
+for event in events: 
     event["messages"][-1].pretty_print() 
