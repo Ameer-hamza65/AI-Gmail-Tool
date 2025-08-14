@@ -16,7 +16,7 @@ example_query = "Draft an email to hamza5993795@gmail.com thanking them for coff
   
 events = graph.stream(
     {"messages": [("user", example_query)]},
-    stream_mode="values", 
+    stream_mode="values",  
 )
 for event in events: 
     event["messages"][-1].pretty_print() 
